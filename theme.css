@@ -1,0 +1,39 @@
+body{
+	background: #56445D;
+}
+
+.Titre{
+	background: #56445D;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: cursive;
+}
+
+.Infos{
+	text-align: center;
+	position:initial;
+}
+
+.cv{
+	width: 1000px;
+	margin: auto;
+}
+
+.exp{
+	border: #C5E99B solid;
+	background: #C5E99B;
+	float: left;
+}
+
+.form{
+	border: #C5E99B solid;
+	background: #C5E99B;
+	float: right;
+}
+
+.comp{
+	border: #C5E99B solid;
+	background: #C5E99B;
+	clear: both;
+	margin-top: 20px;
+}
