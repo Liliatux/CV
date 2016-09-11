@@ -1,39 +1,91 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
-	background: #56445D;
-}
-
-.Titre{
-	background: #56445D;
-	color: #FFFFFF;
+	font-family: Calibri, sans-serif;
+	background: #E0E3DA;
+	height: 100%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
-	font-family: cursive;
 }
 
-.Infos{
-	text-align: center;
-	position:initial;
+.titre{
+	background: #54546c;
+	color: white;
+	font-style: italic;
+	margin-top: -20px;
+	height: 87px;
 }
 
-.cv{
-	width: 1000px;
-	margin: auto;
+.head{
+	position: relative;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.photo{
+	position: absolute;
+	left: 0;
+	top: 5px;
+}
+
+h1{
+	line-height: 87px;
+}
+
+.container{
+	margin: 20px auto;
+	padding: 20px 0px;
+	max-width: 1000px;
+	font-size: 20px;
+	background: white;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
 }
 
 .exp{
-	border: #C5E99B solid;
-	background: #C5E99B;
-	float: left;
-}
-
-.form{
-	border: #C5E99B solid;
-	background: #C5E99B;
-	float: right;
+	margin-bottom: 10px;
 }
 
 .comp{
-	border: #C5E99B solid;
-	background: #C5E99B;
-	clear: both;
-	margin-top: 20px;
+}
+
+.langue{
+}
+
+.inner-block{
+	position: relative;
+}
+
+.logo{
+	left: 25px;
+	position: absolute;
+}
+
+
+h2{
+	color: #54546c;
+	margin-top: 0;
+}
+
+ul{
+	text-align: left;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.pied{
+	background: #566270;
+	color: white;
+	font-style: italic;
+	margin-bottom: -20px;
+	height: 80px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
 }
