@@ -1,81 +1,97 @@
-body{
+body {
 	font-family: Calibri, sans-serif;
+	background: #E0E3DA;
+	height: 100%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
-.titre{
+.titre {
 	background: #54546c;
 	color: white;
-	font-style: italic;
 	margin-top: -20px;
-	height: 80px;
+	height: 87px;
 }
 
-img.photo{
-	position: fixed;
-	margin-left: -100px;
-}
-
-.contener{
+.head {
+	position: relative;
 	margin: 0 auto;
-	width: 1000px;
+	max-width: 1000px;
 }
 
-h1{
-	font-family: cursive;
-	text-align: center;
+.photo {
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 
-p{
-	font-family: cursive;
-	text-align: center;
+h1 {
+	line-height: 87px;
 }
 
-
-.exp{
-	float: left;
-	margin: 100px 50px 50px 100px;
-	width: 500px;
+.nom {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	font-size: 25px;
 }
 
-.form{
-	float: right;
-	margin: 50px 100px 100px 50px;
-	width: 500px;
+.container {
+	margin: 30px auto;
+	padding: 20px 0px;
+	max-width: 1000px;
+	font-size: 20px;
+	background: white;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
 }
 
-.comp{
-	clear: both;
-	margin: 100px;
-	overflow: hidden;
-	text-align: center;
-	height:200px;
-}
-
-.dev{
-	margin-left:-500px;
-}
-
-.langue{
-	margin-top: -100px;
-	margin-left: 400px;
-}
-
-h2{
-	text-align: center;
-	color: #54546c;
-	font-family: cursive;
-}
-
-.pied{
-	background: #54546c;
-	color: white;
+h5 {
 	font-style: italic;
-	margin-bottom: -20px;
-	height: 80px;
+	margin-bottom: 0;
+}
+
+.inner-block {
+	position: relative;
+	font-size: 18px;
+	margin-bottom: 60px;
+}
+
+.logo {
+	left: 25px;
+	position: absolute;
+}
+
+
+h2 {
+	color: #54546c;
+}
+
+h4 {
+	margin-bottom: 10px;
+}
+
+ul {
+	text-align: left;
+	width: 350px;
+	margin: 10 auto;
+}
+
+footer {
+	background: #566270;
+	max-height: 80px;
+	text-align: center;
+	padding: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #566270;
 	text-align: center;
 }
 
-a{
-	text-decoration: none;
+footer i {
 	color: white;
+	margin-right: 20px;
 }
