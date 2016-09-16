@@ -3,48 +3,45 @@ body {
 	background: #E0E3DA;
 	height: 100%;
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
 }
 
-.titre {
+.head {
 	background: #54546c;
 	color: white;
 	margin-top: -20px;
 	height: 87px;
-}
-
-.head {
+	text-align: center;
 	position: relative;
-	margin: 0 auto;
-	max-width: 1000px;
+	padding-top: 20px;
 }
 
-.photo {
+.h1 {
+	width: 300px;
+	margin: 20px auto;
+}
+
+.icone {
+	right: 55px;
+	top: 35px;
 	position: absolute;
-	left: 0;
+}
+
+.titre {
+	margin-left: -48px;
 	top: 0;
-}
-
-h1 {
-	line-height: 87px;
-}
-
-.nom {
+	width: 350px;
 	position: absolute;
-	right: 0;
-	top: 30px;
-	font-size: 25px;
 }
 
 .container {
-	margin: 30px auto;
+	margin: 100px auto;
 	padding: 20px 0px;
 	max-width: 1000px;
 	font-size: 20px;
 	background: white;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+	text-align: center;
+	color: black;
 }
 
 h5 {
@@ -56,9 +53,12 @@ h5 {
 	position: relative;
 	padding-bottom: 25px;
 	font-size: 18px;
-	border-bottom: solid #E0E3DA ;
 	width: 600px;
 	margin: 0 auto;
+}
+
+.separation {
+	border-bottom: solid #E0E3DA ;
 }
 
 .logo {
@@ -90,13 +90,11 @@ footer {
 	padding: 20px;
 }
 
-footer a {
+a {
 	text-decoration: none;
-	color: #566270;
-	text-align: center;
 }
 
-footer i {
+i {
 	color: white;
 	margin-right: 20px;
 }
