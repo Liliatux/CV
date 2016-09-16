@@ -29,7 +29,7 @@ body {
 .titre {
 	left: 0;
 	top: 0;
-	width: 400px;
+	width: 450px;
 	height: 107px;
 	border-right: solid white;
 	position: absolute;
@@ -38,11 +38,21 @@ body {
 
 .photo{
 	height: 170px;
-	margin-right: 10px;
 } 
 
-.titre h2 {
+.dev {
+	color:white;
+	margin: 10px auto;
+
+}
+
+.dev h2 {
 	color: white;
+	margin-bottom: 0;
+}
+
+.dev span {
+	font-style: italic;
 }
 
 .container {
