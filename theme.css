@@ -54,18 +54,22 @@ h5 {
 
 .inner-block {
 	position: relative;
+	padding-bottom: 25px;
 	font-size: 18px;
-	margin-bottom: 60px;
+	border-bottom: solid #E0E3DA ;
+	width: 600px;
+	margin: 0 auto;
 }
 
 .logo {
-	left: 25px;
+	left: 345px;
 	position: absolute;
 }
 
 
 h2 {
 	color: #54546c;
+	padding-bottom: 15px;
 }
 
 h4 {
@@ -76,6 +80,7 @@ ul {
 	text-align: left;
 	width: 350px;
 	margin: 10 auto;
+	list-style-type: circle;
 }
 
 footer {
