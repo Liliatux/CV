@@ -1,0 +1,61 @@
+body {
+	font-family: Calibri, sans-serif;
+	background: #E0E3DA;
+	font-size: 1.2rem;
+}
+
+.colorPurple {
+	color: #54546c;	
+}
+
+#menuPerso {
+	background-color: #54546c;
+	box-shadow: 0 0 1em #54546c;
+ }
+
+.sizeMenu {
+	width: 35%;
+}
+
+.margin {
+	margin-top: 7em;
+}
+
+.padding.padding {
+	padding: 2em;
+}
+
+
+.job.job.job {
+	height: 20em;
+	padding: 14em;
+	background-image: url("https://unsplash.it/1500/1000?image=885");
+	background-attachment: fixed;
+}
+
+.titre.titre.titre {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 3rem;
+}
+
+
+.logo {
+	left: 345px;
+	position: absolute;
+}
+
+
+
+ul {
+	text-align: left;
+	width: 350px;
+	margin: 10 auto;
+	list-style-type: circle;
+}
+
+footer {
+	background: #566270;
+	max-height: 80px;
+	text-align: center;
+	padding: 20px;
+}
