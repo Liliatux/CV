@@ -1,7 +1,10 @@
 body {
-	font-family: Calibri, sans-serif;
-	background: #E0E3DA;
-	font-size: 1.5rem;
+	background: #f7f7f9;
+	font-size: 1.3rem;
+}
+
+.block.block.block.block {
+	display: block;
 }
 
 .colorPurple {
@@ -34,32 +37,10 @@ body {
 	background-size: 100%;
 }
 
-.titre.titre.titre {
-	font-family: 'Courier New', Courier, monospace;
+.familyCode.familyCode.familyCode {
+	font-family: 'Source Code Pro', monospace;
 }
 
 .slogan {
 	font-style: italic;
-}
-
-
-.logo {
-	left: 345px;
-	position: absolute;
-}
-
-
-
-ul {
-	text-align: left;
-	width: 350px;
-	margin: 10 auto;
-	list-style-type: circle;
-}
-
-footer {
-	background: #566270;
-	max-height: 80px;
-	text-align: center;
-	padding: 20px;
 }
