@@ -28,7 +28,7 @@ body {
 
 .job.job.job {
 	height: 20em;
-	padding: 14em;
+	padding: 8em;
 	background-image: url("../image/computer.jpg");
 	background-attachment: fixed;
 	background-size: 100%;
@@ -36,7 +36,10 @@ body {
 
 .titre.titre.titre {
 	font-family: 'Courier New', Courier, monospace;
-	font-size: 3rem;
+}
+
+.slogan {
+	font-style: italic;
 }
 
 
