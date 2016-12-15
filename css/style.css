@@ -1,14 +1,14 @@
 body {
 	font-family: Calibri, sans-serif;
 	background: #E0E3DA;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 }
 
 .colorPurple {
 	color: #54546c;	
 }
 
-#menuPerso {
+.menuName.menuName.menuName {
 	background-color: #54546c;
 	box-shadow: 0 0 1em #54546c;
  }
@@ -29,8 +29,9 @@ body {
 .job.job.job {
 	height: 20em;
 	padding: 14em;
-	background-image: url("https://unsplash.it/1500/1000?image=885");
+	background-image: url("../image/computer.jpg");
 	background-attachment: fixed;
+	background-size: 100%;
 }
 
 .titre.titre.titre {

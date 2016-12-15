@@ -7,9 +7,9 @@
 	<link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>			
-	<div class="ui top fixed massive inverted pointing borderless menu" id="menuPerso">
+	<div class="ui top fixed massive inverted pointing borderless menu menuName">
 		<h2 class="header item sizeMenu">Zélia Geerts</h2>
-		<a class="item" href="#poject">Projet</a>
+		<a class="item" href="#project">Projet</a>
 		<a class="item" href="#comp">Compétences</a>
 		<a class="item" href="#form">Formations</a>
 		<a class="item" href="#exp">Expériences</a>
@@ -26,8 +26,8 @@
 		<div class="three column centered row margin">
 			<div class="column">
 				<h2 class="colorPurple">Hello World !</h2>
-				<p class="size">Bienvenue ma page web personnelle, vous trouverez ici mon CV et des informations à propos de moi.</p>
-				<p class="size">Je m'appelle Zélia, j'ai 24 ans et je suis actuellement en formation chez Simplon pour devenir <b>développeuse web et mobile</b>. Je suis d'un naturel calme, curieuse et ouverte d'esprit. J'aime le sport, les animaux, les jeux de stratégie et les nouvelles technologies.</p>
+				<p>Bienvenue ma page web personnelle, vous trouverez ici mon CV et des informations à propos de moi.</p>
+				<p>Je m'appelle Zélia, j'ai 24 ans et je suis actuellement en formation chez Simplon pour devenir <b>développeuse web et mobile</b>. Je suis d'un naturel calme, curieuse et ouverte d'esprit. J'aime le sport, les animaux, les jeux de stratégie et les nouvelles technologies.</p>
 			</div>
 		</div>
 		<div class="one column centered row margin job">
@@ -35,11 +35,12 @@
 				<div class="ui huge inverted header titre">Développeuse Web junior</div>
 			</div>
 		</div>
-		<div class="two column centered row margin" id="project">
+		<div id="project"></div>
+		<div class="two column centered row margin">
 			<div class="column">
 				<div class="ui segment padding">
 					<h2 class="colorPurple">Projets</h2>
-					<div class="ui large relaxed divided list">
+					<div class="ui huge relaxed divided list">
 						<div class="item">
 							<i class="large github middle aligned icon"></i>
 							<div class="content">
@@ -72,34 +73,64 @@
 				</div>
 			</div>
 		</div>
-		<div class="two column centered row margin" id="comp">
+		<div id="comp"></div>
+		<div class="two column centered row margin">
 			<div class="column">
 				<div class="ui segment padding">
 					<h2 class="colorPurple">Compétences</h2>
-					<div class="ui large relaxed divided list">
+					<div class="ui huge relaxed divided list">
 						<div class="item">
 							<div class="content">
 								<h3 class="ui header">Web</h3>
 								<div class="ui middle aligned list">
 									<div class="item">
-										<img class="ui avatar image" src="/image/react.png" alt="react"/>
-										<div class="content">
-											<div class="header">React</div>
+										<div class="ui huge horizontal list">
+											<div class="item">
+												<img class="ui avatar image" src="image/nodejs.png" alt="js"/>
+												<div class="content">
+													<div class="header">Node JS</div>
+												</div>
+											</div>
+											<div class="item">
+												<img class="ui avatar image" src="image/react.png" alt="react"/>
+												<div class="content">
+													<div class="header">React</div>
+												</div>
+											</div>
+											<div class="item">
+												<img class="ui avatar image" src="image/jquery.png" alt="js"/>
+												<div class="content">
+													<div class="header">jQuery</div>
+												</div>
+											</div>
 										</div>
 									</div>
 									<div class="item">
-   										<img class="ui avatar image" src="/image/nodejs.png" alt="js"/>
-   										<div class="content">
-   											<div class="header">Node JS</div>
-   										</div>
-   									</div>
-   									<div class="item">
-   										<img class="ui avatar image" src="/image/jquery.png" alt="js"/>
-   										<div class="content">
-   											<div class="header">jQuery</div>
-   										</div>
-   									</div>
-   								</div>
+										<div class="ui huge horizontal list">
+											<div class="item">
+												<img class="ui avatar image" src="image/css.png" alt="css"/>
+												<div class="content">
+													<div class="header">CSS</div>
+												</div>
+											</div>
+											<div class="item">
+												<img class="ui avatar image" src="image/semantic.png" alt="semantic"/>
+												<div class="content">
+													<div class="header">Semantic</div>
+												</div>
+											</div>
+											<div class="item">
+												<img class="ui avatar image" src="image/sass.png" alt="sass"/>
+												<div class="content">
+													<div class="header">SASS</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="item">
+										
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="item">
@@ -107,120 +138,114 @@
 								<h3 class="ui header">Langues Vivantes</h3>
 								<div class="ui middle aligned list">
 									<div class="item">
-										<img class="ui avatar image" src="/image/fr.png" alt="js"/>
+										<img class="ui avatar image" src="image/fr.png" alt="js"/>
 										<div class="content">
 											<div class="header">Français langue maternelle</div>
 										</div>
 									</div>
 									<div class="item">
-										<img class="ui avatar image" src="/image/en.png" alt="js"/>
+										<img class="ui avatar image" src="image/en.png" alt="js"/>
 										<div class="content">
 											<div class="header">Anglais niveau B1</div>
 										</div>
 									</div>
 									<div class="item">
-   										<img class="ui avatar image" src="/image/es.png" alt="js"/>
-   										<div class="content">
-   											<div class="header">Espagnol niveau A2</div>
-   										</div>
-   									</div>
-   								</div>	
+										<img class="ui avatar image" src="image/es.png" alt="js"/>
+										<div class="content">
+											<div class="header">Espagnol niveau A2</div>
+										</div>
+									</div>
+								</div>	
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="two column centered row margin" id="form">
-		<div class="column">
-			<div class="ui segment padding">
-				<h2 class="colorPurple">Formations</h2>
-				<div class="ui large relaxed divided list">
-						<div class="item">
-							<i class="large github middle aligned icon"></i>
-							<div class="content">
-				<h4>Développeuse Web</h4>
-				<img class="logo" src="http://media1.jobirl.com/images/societe/1458205956.jpg" alt="logo simplon" height="100" width="120"/>
-				<div class="ui section divider"></div>
-				<h5>Simplon Midi-Pyrénées - Toulouse</h5>
-				<span>En cours</span>
-				<ul>
-					<li>HTML/CSS, JS, PHP, SQL</li>
-					<li>développement web et mobile</li>
-					<li>gestion en équipe</li>
-				</ul>
-				<h4>Maitrise en Psychologie</h4>
-				<img class="logo" src="https://upload.wikimedia.org/wikipedia/fr/3/36/Logo_de_l'universit%C3%A9_Toulouse_-_Jean_Jaur%C3%A8s.png" alt="logo jean jaurès" height="50" width="150"/>
-
-				<div class="ui section divider"></div>
-				<h5>UT2J - Toulouse</h5>
-				<span>Septembre 2015 - Juin 2016</span>
-				<ul>
-					<li>Psychologie clinique, de la santé et des neurosciences</li>
-					<li>Mémoire en psychopathlogie</li>
-					<li>Gestion en équipe</li>
-				</ul>
-				<h4>Licence en Psychologie</h4>
-				<img class="logo" src="https://www.u-picardie.fr/plateforme/icap/images/Logo_UPJV.gif" alt="logo jules vernes" height="100" width="100">
-				<div class="ui section divider"></div>
-				<h5>UPJV - Amiens</h5>
-				<span>Septembre 2010 - Juin 2014</span>
-				<ul>
-					<li>Connaissances générales en psychologie</li>
-					<li>Gestion en équipe</li>
-				</ul>
-			</div>
-		</div>
-		<div class="two column centered row margin" id="exp">
+		<div id="exp"></div>
+		<div class="two column centered row margin">
 			<div class="column">
 				<div class="ui segment padding">
 					<h2 class="colorPurple">Expériences</h2>
-					<div class="ui large relaxed divided list">
+					<div class="ui huge relaxed divided list">
 						<div class="item">
+							<h3 class="ui header">Animatrice/Accompagnatrice</h3>
 							<div class="content">
-								<h3 class="ui header">Animatrice/Accompagnatrice</h3>
+								<div class="description">UFCV - Toulouse - Aout 2016</div>
+								<div class="description">Vacances adaptées pour adultes ou je devais m'organiser avec l'équipe encadrante pour plannifier et gérer le quotidien des personnes.</div>
+							</div>
+						</div>
+						<div class="item">
+							<h3 class="ui header">Stage en Psychologie</h3>
+							<div class="ui middle aligned list">
 								<div class="item">
-									<div class="content"></div>
+									<h4 class="ui header">Centre d'addictologie</h4>
+									<div class="content">
+										<div class="description">ARPADE - Toulouse - 2015-2016</div>
+										<div class="description">Observation et participation aux rdv et réunions de l'équipe soignante.</div>
+									</div>
+								</div>
+								<div class="item">
+									<h4 class="ui header">Psychiatrie</h4>
+									<div class="content">
+										<div class="description">UFCV - Toulouse - 2014-2015</div>
+										<div class="description">Organisation et gestion de groupe de parole et d'entretiens cliniques avec les personnes.</div>
+									</div>
 								</div>
 							</div>
 						</div>
+						<div class="item">
+							<h3 class="ui header">Vendeuse</h3>
+							<div class="content">
+								<div class="description">Décathlon - Amiens - 2013-2014</div>
+								<div class="description">Services et relations clients, organisation et gestion en équipe des produits proposés.</div>
+							</div>
+						</div>
 					</div>		
-					<h5>UFCV - Toulouse</h5>
-					<span>aout 2016</span>
-					<ul>
-						<li>Vacances adaptées adultes</li>
-						<li>Gestion des soins médicaux</li>
-					</ul>
-					<h4>Stagiaire en centre d'addictologie</h4>
-					<div class="ui section divider"></div>
-					<h5>ARPADE - Toulouse</h5>
-					<span>Fevrier - Mars 2016</span>
-					<ul>
-						<li>Observation de psychologue clinicien</li>
-						<li>Participation aux réunions/entretiens de l'équipe</li>
-					</ul>
-					<h4>Stagiaire en clinique psychiatrie</h4>
-					<div class="ui section divider"></div>
-					<h5>Ramsey Santé - Pierrefonds</h5>
-					<span>Mars - Mai 2015</span>
-					<ul>
-						<li>Observation du métier de psychologue</li>
-						<li>Réalisation d'entretiens cliniques</li>
-					</ul>
-					<h4>Vendeuse</h4>
-					<div class="ui section divider"></div>
-					<h5>Décathlon - St-Quentin, Amiens</h5>
-					<span>Juin 2013 - Septembre 2014</span>
-					<ul>
-						<li>Travail en équipe</li>
-						<li>Service envers les clients</li>
-					</ul>
 				</div>	
 			</div>
 		</div>
+		<div id="form"></div>
+		<div class="two column centered row margin">
+			<div class="column">
+				<div class="ui segment padding">
+					<h2 class="colorPurple">Formations</h2>
+					<div class="ui huge relaxed divided list">
+						<div class="item">
+							<h3 class="header">Développement Web</h3>
+							<div class="content">
+								<div class="description">Simplon - IOT Valley de Labège - En cours</div>
+								<div class="description">Développement web et mobile avec JavaScript, PHP et SQL. Gestion de projet clients en équipe</div>
+							</div>
+						</div>
+						<div class="item">
+							<h3 class="header">Master en Psychologie de la santé et des neurosciences</h3>
+							<div class="content">
+								<div class="description">UT2J - Toulouse - 2015-2016</div>
+								<div class="description">Obtention de la maitrise spécialité psychopathologie. Rédaction d'un mémoire en addictologie et gestion de projets en équipe</div>
+							</div>
+						</div>
+						<div class="item">
+							<h3 class="header">Master en Psychologie du développement et neuropsychologie</h3>
+							<div class="content">
+								<div class="description">UPJV - Amiens - 2014-2015</div>
+								<div class="description">Etude du handicap, des tests en neuropsychologie, et du développement de l'humain.</div>
+							</div>
+						</div>
+						<div class="item">
+							<h3 class="header">Licence en Psychologie</h3>
+							<div class="content">
+								<div class="description">UPJV - Amiens - 2010-2014</div>
+								<div class="description">Obtention du diplome de Licence mention Psychologie.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-<footer>
-	<a href="#"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>
-</footer>
+	<footer>
+		<a href="#"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></a>
+	</footer>
 </body>
 </html>
