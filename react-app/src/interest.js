@@ -4,12 +4,16 @@ import './header.css';
 class Interest extends Component {
 	render() {
 		return(
-			<div className="ui grid">
+			<div className="ui centered grid background scenary">
 				<div id="interest"></div>
-				<div className="one column centered row background scenary margin">
-					<div className="center aligned column familyCode">
+				<div className="one column row">
+					<div className="center aligned column">
 						<div className="ui huge inverted header familyCode">Centres D'intérêts</div>
-						<div className="ui styled accordion margin">
+					</div>
+				</div>
+				<div className="two column center aligned row margin">
+					<div className="column">
+						<div className="ui styled accordion">
 							<div className="title">
 								<i className="dropdown icon"></i>
 								Sport

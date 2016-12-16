@@ -5,7 +5,7 @@ class Footer extends Component {
 	render() {
 		return(
 			<div className="ui grid">
-				<div className="one column centered row margin menuName">
+				<div className="one column centered row menuName">
 					<div className="column">
 						
 					</div>
