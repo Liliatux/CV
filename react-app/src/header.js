@@ -5,6 +5,7 @@ class Header extends Component {
   render() {
     return (
 		<div className="ui grid">
+			<div id="presentation"></div>
 			<div className="two column centered row presentation">
 				<div className="column familyCode">
 					<h2 className="colorPurple familyCode">Hello World !</h2>

@@ -5,10 +5,10 @@ class Menu extends Component {
   render() {
     return (
       <div className="ui top fixed massive inverted pointing borderless menu menuName familyCode">
-        <div className="item sizeMenu block">
+        <a className="item sizeMenu block" href="#presentation">
           <h2 className="header familyCode">Zélia Geerts</h2>
           <span className="job">Dévelopeuse Web</span>
-        </div>
+        </a>
         <a className="item" href="#project">Projets</a>
         <a className="item" href="#comp">Compétences</a>
         <a className="item" href="#exp">Expériences</a>
