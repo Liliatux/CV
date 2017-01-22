@@ -9,9 +9,8 @@ class Header extends Component {
 			<div className="two column centered row presentation">
 				<div className="column familyCode">
 					<h2 className="colorPurple familyCode">Hello World !</h2>
-					<p className="italic">Bienvenue ma page web personnelle, vous trouverez ici mon CV et des informations à propos de moi.</p>
-					<p className="italic">Je m'appelle Zélia, j'ai 24 ans et je suis actuellement <b>développeuse web</b> chez Simplon. D'un naturel calme, curieuse et ouverte d'esprit, je reste très exigente et perfectionniste dans mon travail.</p>
-					<p className="italic">Captivée par la nature et le numérique j'aimerai utiliser mon code pour la sauvegarde de la biodiversité.</p>
+					<p>Bienvenue ma page web personnelle, vous trouverez ici mon CV et des informations à propos de moi.</p>
+					<p>Je m'appelle Zélia, j'ai 24 ans et je suis actuellement <b>développeuse web</b> chez Simplon. D'un naturel calme, curieuse et ouverte d'esprit, je reste très exigente et perfectionniste dans mon travail.</p>
 				</div>
 			</div>
 			<div className="one column centered row background computer">

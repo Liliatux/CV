@@ -7,7 +7,6 @@ class Footer extends Component {
 			<div className="ui grid">
 				<div className="one column centered row menuName">
 					<div className="column">
-						
 					</div>
 				</div>
 			</div>

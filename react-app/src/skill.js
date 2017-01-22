@@ -17,6 +17,22 @@ class Skill extends Component {
 										<div className="item">
 											<div className="ui big horizontal list">
 												<div className="item">
+													<img className="ui avatar image" src="./image/php.jpg" alt="php"/>
+													<div className="content">
+														<div className="header">PHP</div>
+													</div>
+												</div>
+												<div className="item">
+													<img className="ui avatar image" src="./image/laravel.png" alt="laravel"/>
+													<div className="content">
+														<div className="header">Laravel</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div className="item">
+											<div className="ui big horizontal list">
+												<div className="item">
 													<img className="ui avatar image" src="./image/js.png" alt="js"/>
 													<div className="content">
 														<div className="header">JavaScript</div>
