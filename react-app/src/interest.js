@@ -24,21 +24,20 @@ class Interest extends Component {
 					</div>
 				</div>
 				<div className="two column center aligned row margin">
-					<div className="column">
-						<div className="ui styled accordion">
+						<div className="ui inverted accordion">
 							<div className={this.state.sportTitle} onClick={this.sport.bind(this)}>
 								<i className="dropdown icon"></i>
 								Sport
 							</div>
 							<div className={this.state.sportContent}>
-								<p>Parce que s'entretenir c'est important pour le mental et le physique, j'aime pratiquer tous types de sports: en individuel (randonnée, running, escalade, équitation), en équipe (basket) ou du combat (boxe, self-defense).</p>
+								<p className="white">Parce que s'entretenir c'est important pour le mental et le physique, j'aime pratiquer tous types de sports: en individuel (randonnée, running, escalade, équitation), en équipe (basket) ou du combat (boxe, self-defense).</p>
 							</div>
 							<div className={this.state.gamesTitle} onClick={this.games.bind(this)}>
 								<i className="dropdown icon"></i>
 								Jeux
 							</div>
 							<div className={this.state.gamesContent}>
-								<p>Ayant grandi avec la nintendo 64, et le début des jeux vidéo multijoueurs en ligne, j'aime jouer avec mes amis à des jeux de stratégie (age of empire), fps (CSGO) ou MOBA (League of Legend).
+								<p className="white">Ayant grandi avec la nintendo 64, et le début des jeux vidéo multijoueurs en ligne, j'aime jouer avec mes amis à des jeux de stratégie (age of empire), fps (CSGO) ou MOBA (League of Legend).
 								J'aime aussi les jeux stratégique (échec) et de plateau (7wonders)</p>
 							</div>
 							<div className={this.state.animalsTitle} onClick={this.animals.bind(this)}>
@@ -46,10 +45,9 @@ class Interest extends Component {
 								Animaux
 							</div>
 								<div className={this.state.animalsContent}>
-								<p>Mes grands parents étant des fermiers, j'ai toujours vécut avec les animaux. Je me plait à m'occuper et prendre soin d'eux, notamment de mes deux chats Sirius et Tifa. Je fais également des dons aux associations de protection animal.</p>
+								<p className="white">Mes grands parents étant des fermiers, j'ai toujours vécut avec les animaux. Je me plait à m'occuper et prendre soin d'eux, notamment de mes deux chats Sirius et Tifa. Je fais également des dons aux associations de protection animal.</p>
 							</div>
 						</div>
-					</div>
 				</div>
 			</div>
 		);

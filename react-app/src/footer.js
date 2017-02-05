@@ -6,7 +6,8 @@ class Footer extends Component {
 		return(
 			<div className="ui grid">
 				<div className="one column centered row menuName">
-					<div className="column">
+					<div className="three columns white" id="mail">
+						<i className="inverted mail outline icon"></i>geertszelia@gmail.com
 					</div>
 				</div>
 			</div>

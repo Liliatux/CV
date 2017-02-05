@@ -6,7 +6,12 @@ class Header extends Component {
     return (
 		<div className="ui grid">
 			<div id="presentation"></div>
-			<div className="two column centered row presentation">
+			<div className="three column centered row presentation">
+				<div className="column">
+				    <div class="image">
+				    	<img className="ui medium circular image" src="./image/moi.jpg" alt="moi"/>
+				    </div>
+				</div>
 				<div className="column familyCode">
 					<h2 className="colorPurple familyCode">Hello World !</h2>
 					<p>Bienvenue ma page web personnelle, vous trouverez ici mon CV et des informations à propos de moi.</p>

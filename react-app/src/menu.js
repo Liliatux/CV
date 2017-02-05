@@ -21,8 +21,8 @@ class Menu extends Component {
           <a className="item" href="https://fr.linkedin.com/in/zélia-geerts-835b47134">
             <i className="linkedin large icon"></i>
           </a>
-          <a className="item" href="#mail">
-            <i className="mail outline large icon"></i>
+          <a className="item" href="https://twitter.com/liliatux">
+            <i className="twitter large icon"></i>
           </a>
         </div>
       </div>
