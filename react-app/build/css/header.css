@@ -1,0 +1,27 @@
+.background.background.background {
+	padding: 10em;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.computer {
+	background-image: url("../image/computer.jpg");
+}
+
+.scenary {
+	background-image: url("../image/scenary.jpg");
+}
+
+
+.italic {
+  font-style: italic;
+}
+
+.presentation.presentation {
+	margin: 12em 0 9em 0;
+}
+
+.white {
+	color: white;
+	font-size: 1.3em;
+}
