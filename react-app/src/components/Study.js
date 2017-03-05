@@ -14,7 +14,7 @@ class Study extends Component {
 								<div className="content">
 									<h3 className="header">Développement Web</h3>
 									<div className="description">Simplon - IOT Valley de Labège - 2016-2017</div>
-									<div className="description">Développement web et mobile avec JavaScript, PHP et SQL. Gestion de projet clients en équipe</div>
+									<div className="description">Développement web et mobile selon la méthode "learning by teaching". Gestion de projets clients en équipe, utilisation des méthodes agile, de git et sessions de pair programming.</div>
 								</div>
 							</div>
 							<div className="item">

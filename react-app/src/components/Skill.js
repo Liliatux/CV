@@ -17,22 +17,6 @@ class Skill extends Component {
 										<div className="item">
 											<div className="ui big horizontal list">
 												<div className="item">
-													<img className="ui avatar image" src="./image/php.jpg" alt="php"/>
-													<div className="content">
-														<div className="header">PHP</div>
-													</div>
-												</div>
-												<div className="item">
-													<img className="ui avatar image" src="./image/laravel.png" alt="laravel"/>
-													<div className="content">
-														<div className="header">Laravel</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div className="item">
-											<div className="ui big horizontal list">
-												<div className="item">
 													<img className="ui avatar image" src="./image/js.png" alt="js"/>
 													<div className="content">
 														<div className="header">JavaScript</div>
@@ -47,7 +31,29 @@ class Skill extends Component {
 												<div className="item">
 													<img className="ui avatar image" src="./image/react.png" alt="react"/>
 													<div className="content">
-														<div className="header">React</div>
+														<div className="header">ReactJS</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div className="item">
+											<div className="ui big horizontal list">
+												<div className="item">
+													<img className="ui avatar image" src="./image/php.jpg" alt="php"/>
+													<div className="content">
+														<div className="header">PHP</div>
+													</div>
+												</div>
+												<div className="item">
+													<img className="ui avatar image" src="./image/mysql.png" alt="mysql"/>
+													<div className="content">
+														<div className="header">MySQL</div>
+													</div>
+												</div>
+												<div className="item">
+													<img className="ui avatar image" src="./image/laravel.png" alt="laravel"/>
+													<div className="content">
+														<div className="header">Laravel</div>
 													</div>
 												</div>
 											</div>
@@ -63,7 +69,7 @@ class Skill extends Component {
 												<div className="item">
 													<img className="ui avatar image" src="./image/semantic.png" alt="semantic"/>
 													<div className="content">
-														<div className="header">Semantic</div>
+														<div className="header">Semantic UI</div>
 													</div>
 												</div>
 												<div className="item">
