@@ -24,6 +24,12 @@ class Study extends Component {
 									<div className="description">Mention Bien</div>
 								</div>
 							</div>
+							<div className="item">
+								<div className="content">
+									<h3 className="header">Licence mention Psychologie</h3>
+									<div className="description">UPJV - Amiens - 2010-2014</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

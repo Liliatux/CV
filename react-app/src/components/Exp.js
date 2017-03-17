@@ -26,10 +26,26 @@ class Exp extends Component {
 							</div>
 							<div className="item">
 								<div className="content">
+									<h3 className="ui header">Animatrice/Accopagnatrice</h3>
+									<div className="description">Août 2016</div>
+									<div className="description">UFCV Toulouse</div>
+									<div className="description">Gestion de l'organisation du séjour adapté adulte, travail en équipe, accompagnement des personnes en situation de handicap.</div>
+								</div>
+							</div>
+							<div className="item">
+								<div className="content">
 									<h3 className="ui header">Stage en Psychologie</h3>
 									<div className="description">2014-2016</div>
 									<div className="description">ARPADE Toulouse</div>
 									<div className="description">Clinique Eugénie de Pierrefonds</div>
+								</div>
+							</div>
+							<div className="item">
+								<div className="content">
+									<h3 className="ui header">Vendeuse</h3>
+									<div className="description">2013-2014</div>
+									<div className="description">Décathlon</div>
+									<div className="description">Relation client, gestion des produits, formation à la vente.</div>
 								</div>
 							</div>
 						</div>		

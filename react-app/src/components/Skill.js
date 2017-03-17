@@ -12,7 +12,7 @@ class Skill extends Component {
 						<div className="ui big relaxed divided list">
 							<div className="item">
 								<div className="content">
-									<h3 className="ui header">Web</h3>
+									<h3 className="ui header">Langages de programmation</h3>
 									<div className="ui middle aligned list">
 										<div className="item">
 											<div className="ui big horizontal list">
@@ -23,9 +23,26 @@ class Skill extends Component {
 													</div>
 												</div>
 												<div className="item">
-													<img className="ui avatar image" src="./image/nodejs.png" alt="nodeJs"/>
+													<img className="ui avatar image" src="./image/php.jpg" alt="php"/>
 													<div className="content">
-														<div className="header">Node JS</div>
+														<div className="header">PHP</div>
+													</div>
+												</div>
+												<div className="item">
+													<img className="ui avatar image" src="./image/sql.png" alt="sql"/>
+													<div className="content">
+														<div className="header">SQL</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div className="item">
+											<h3 className="ui header">Frameworks et Librairies</h3>
+											<div className="ui big horizontal list">
+												<div className="item">
+													<img className="ui avatar image" src="./image/jquery.png" alt="jquery"/>
+													<div className="content">
+														<div className="header">jQuery</div>
 													</div>
 												</div>
 												<div className="item">
@@ -34,22 +51,7 @@ class Skill extends Component {
 														<div className="header">ReactJS</div>
 													</div>
 												</div>
-											</div>
-										</div>
-										<div className="item">
-											<div className="ui big horizontal list">
-												<div className="item">
-													<img className="ui avatar image" src="./image/php.jpg" alt="php"/>
-													<div className="content">
-														<div className="header">PHP</div>
-													</div>
-												</div>
-												<div className="item">
-													<img className="ui avatar image" src="./image/mysql.png" alt="mysql"/>
-													<div className="content">
-														<div className="header">MySQL</div>
-													</div>
-												</div>
+												
 												<div className="item">
 													<img className="ui avatar image" src="./image/laravel.png" alt="laravel"/>
 													<div className="content">
@@ -59,11 +61,24 @@ class Skill extends Component {
 											</div>
 										</div>
 										<div className="item">
+											<h3 className="ui header">Outils</h3>
 											<div className="ui big horizontal list">
 												<div className="item">
-													<img className="ui avatar image" src="./image/css.png" alt="css"/>
+													<img className="ui avatar image" src="./image/git.png" alt="git"/>
 													<div className="content">
-														<div className="header">CSS</div>
+														<div className="header">Git</div>
+													</div>
+												</div>
+												<div className="item">
+													<img className="ui avatar image" src="./image/mysql.png" alt="mysql"/>
+													<div className="content">
+														<div className="header">MySQL</div>
+													</div>
+												</div>
+												<div className="item">
+													<img className="ui avatar image" src="./image/babel.png" alt="babel"/>
+													<div className="content">
+														<div className="header">Babel</div>
 													</div>
 												</div>
 												<div className="item">
@@ -76,6 +91,12 @@ class Skill extends Component {
 													<img className="ui avatar image" src="./image/sass.png" alt="sass"/>
 													<div className="content">
 														<div className="header">SASS</div>
+													</div>
+												</div>
+												<div className="item">
+													<img className="ui avatar image" src="./image/kanban.png" alt="kanban"/>
+													<div className="content">
+														<div className="header">Kanban</div>
 													</div>
 												</div>
 											</div>

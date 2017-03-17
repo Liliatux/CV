@@ -21,7 +21,7 @@ class Header extends Component {
 			<div className="one column centered row background computer">
 				<div className="center aligned column">
 					<div className="ui huge inverted header familyCode">Développeuse Web junior</div>
-					<div className="ui inverted header familyCode italic">"le code représente pour moi la création et l'innovation vers un monde meilleurs."</div>
+					<div className="ui inverted header familyCode italic">"le code représente pour moi la création et l'innovation."</div>
 				</div>
 			</div>
 		</div>
