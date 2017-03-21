@@ -43,7 +43,7 @@ class Accordion extends Component {
 				          id='sport'
 				        />
 				        <Interest title="Jeux"
-				          content="Ayant grandi avec la nintendo 64, et le début des jeux vidéo multijoueurs en ligne, j'aime jouer avec mes amis à des jeux de stratégie (age of empire), fps (CSGO) ou MOBA (League of Legend). J'aime aussi les jeux stratégique (échec) et de plateau (7wonders)"
+				          content="Ayant grandi avec la nintendo 64, et le début des jeux vidéo multijoueurs en ligne, j'aime jouer avec mes amis à des jeux de stratégie (age of empire), fps (CSGO) ou MOBA (League of Legend). J'aime aussi les jeux de plateau (7wonders) et jeux de rôle."
 				          status={this.state.games}
 				          toggle={this._toggle}
 				          id='games'
